@@ -37,7 +37,12 @@ A highly responsive, asynchronous Telegram chatbot powered by AI models via [Ope
    uv pip install -r requirements.txt
    ```
 
-4. **Environment Variables Config:**
+4. **How to get a Telegram Bot Token:**
+   - Open Telegram and search for **[@BotFather](https://t.me/botfather)**.
+   - Send the `/newbot` command and follow the instructions to set a name and username for your bot.
+   - Once completed, BotFather will provide you with a **HTTP API Token** (e.g., `123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11`). Copy this token.
+
+5. **Environment Variables Config:**
    Create a `.env` file in the main folder and add your keys:
    ```env
    TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
